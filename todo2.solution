@@ -1,0 +1,10 @@
+touch ericacheung.txt
+My name is Erica Cheung.
+I am crazy about Indian food and all other curries.
+I live in New York.
+cat todo2.solution
+cat todo2.solution >> ericacheungcopy.txt
+mv ericacheungcopy.txt stevenrules.txt
+cat todo2.solution stevenrules.txt >> everything.txt
+echo "I like pina coladas and getting caught in the rain." >> everything.txt
+find . -name '*.txt' >> textfileslist
